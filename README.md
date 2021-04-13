@@ -55,7 +55,9 @@ Etapes pour la création de l'app weather-app pour l'Entretien Famihero:
     ou: \reactjs_nodejs_weather_app_job>npm init react-app client
 
 Pour ajouter des " dependencies " et " devDependencies " à un fichier " package.json " à partir de la ligne de commande:
+
     * Vous pouvez les installer dans le répertoire racine de votre package en utilisant l'indicateur --save-prod pour les " dependencies " (le comportement par défaut de " npm install " ), exemple:
+    
         " npm install react-router-dom " OU " npm install react-router-dom --save-prod "
 
     * Le " --save -dev " indicateur pour " devDependencies ", par exemple:
