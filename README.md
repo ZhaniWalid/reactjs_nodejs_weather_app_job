@@ -1,3 +1,5 @@
+Copyright © goes to : Walid ZHANI - Linkedin: https://www.linkedin.com/in/walid-zhani-54705612a/
+
 Etapes pour la création de l'app weather-app pour l'Entretien Famihero:
 
   1/ Partie Back-End avec NodeJS et Express:
@@ -57,7 +59,7 @@ Etapes pour la création de l'app weather-app pour l'Entretien Famihero:
 Pour ajouter des " dependencies " et " devDependencies " à un fichier " package.json " à partir de la ligne de commande:
 
     * Vous pouvez les installer dans le répertoire racine de votre package en utilisant l'indicateur --save-prod pour les " dependencies " (le comportement par défaut de " npm install " ), exemple:
-    
+
         " npm install react-router-dom " OU " npm install react-router-dom --save-prod "
 
     * Le " --save -dev " indicateur pour " devDependencies ", par exemple:
@@ -80,7 +82,6 @@ Pour ajouter des " dependencies " et " devDependencies " à un fichier " package
     Dans l'App Front-End React, J'ai utilisé 'Redux' qui est une bibliothèque JavaScript open-source pour la gestion de l'état des applications avec 'React Redux' qui est la couche de liaisons officielle de 'React UI' pour 'Redux'. Il permet aux composants 'React' de lire les données d'un 'Store Redux' et d'envoyer des actions au 'Store' pour mettre à jour l'état.
 
     
-
     NB:
         * J'ai utilisé une 'API météo tierce gratuite', d'Open Weather Map ( 'https://openweathermap.org/' ) pour  obtenir des données météorologiques, en suivant cette forme:
         http://api.openweathermap.org/data/2.5/weather?q={cityName}&units=metric&appid={APIkey} 
@@ -98,9 +99,3 @@ Pour ajouter des " dependencies " et " devDependencies " à un fichier " package
 
       => Puis on utilise cette fonction 'msNodeSqlServerConnection()' dans le fichier [mssql.js] pour se connecter avec la avec base de données SQL dans 'SQL Server Management Studio' et récupérer des données.
         Et l'autre fonction 'msNodeSqlSrvCnxInsertData(...)' dans le fichier [mssql.js] pour se connecter avec la avec base de données SQL dans 'SQL Server Management Studio' et insérer des données.
-
-    
-
-
-
-
